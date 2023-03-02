@@ -8,5 +8,11 @@ div {
     align-items: center;
 }
 h1 {
+    margin: auto;
     font-size: 20em;
+}
+ul {
+    list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }

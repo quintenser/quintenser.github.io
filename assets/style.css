@@ -1,0 +1,12 @@
+body {
+    @import url('https://fonts.cdnfonts.com/css/secular-one'); 
+    font-family: 'Secular One', sans-serif;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 20em;
+}

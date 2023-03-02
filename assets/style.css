@@ -4,18 +4,19 @@ body {
     font-family: 'Secular One', sans-serif;
 }
 div {
+    vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1em;
+    margin: auto;
 }
 h1 {
     margin: auto;
-    font-size: 18em;
-    
+    font-size: 15em;
     color: rgb(231, 23, 89);
 }
 h2 {
+    vertical-align: middle;
     margin: auto;
 }
 ul {
@@ -34,6 +35,6 @@ a {
 }
 
 img {
-    height: 35em;
-    width: auto;
+    height: auto;
+    max-width: 65%;
 }

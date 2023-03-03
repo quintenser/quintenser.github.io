@@ -12,13 +12,26 @@ div {
 }
 h1 {
     margin: auto;
-    font-size: 15em;
+    font-size: 12.5em;
     color: rgb(231, 23, 89);
 }
 h2 {
     vertical-align: middle;
     margin: auto;
 }
+
+h2 .negative {
+    color: rgb(231, 23, 89);
+}
+
+h2 .positive {
+    color: rgb(94,192,148);
+}
+
+h2 .train {
+    color: #f7d417;
+}
+
 ul {
 
     list-style-type: none; /* Remove bullets */

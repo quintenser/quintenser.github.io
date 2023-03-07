@@ -4,7 +4,6 @@ body {
     font-family: 'Secular One', sans-serif;
 }
 div {
-    vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +15,7 @@ h1 {
     color:  rgb(231, 23, 89);
 }
 h2 {
-    vertical-align: middle;
+    text-align: center;
     margin: auto;
 }
 
@@ -51,3 +50,24 @@ img {
     height: auto;
     max-width: 65%;
 }
+
+#Cal {
+    appearance: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+#Calimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Cal:checked + #Calimg {
+    transform: scale(2,2);
+    transition: transform 1s ease-in-out;
+  }
